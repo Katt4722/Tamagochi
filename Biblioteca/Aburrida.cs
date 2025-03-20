@@ -15,6 +15,7 @@ public class Aburrida : Estado
     public override void Comer(Mascota mascota)
     {
         throw new NotImplementedException();
+        
     }
 
     public override void Jugar(Mascota mascota)

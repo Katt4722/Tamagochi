@@ -10,5 +10,6 @@ public class Mascota
     public void Comer() => Estado.Comer(this);
 
     public void Jugar() => Estado.Jugar(this);
+    public void PuedeJugar () => Estado.Jugar(this);
 
     }
